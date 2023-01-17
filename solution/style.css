@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  font-family: 'Orbitron', sans-serif;
+
+  height: 100vh;
+  letter-spacing: 1px;
+}
+
+header {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.input-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.input-con input {
+  padding: 8px 12px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border:none;
+  outline: none;
+  font-size: 24px;
+}
+
+.input-con button {
+  padding: 8px 12px;
+  margin-left: 16px;
+  font-size: 22px;
+  border:none;
+  background-color: #6439BA;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.input-con button:hover {
+  background-color: #fff;
+  color: #6439BA;
+ 
+}
+.img-con {
+  background-image: url('./assets/magic.png');
+height: 300px;  
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+
+}
+
+
+.descriprition-con {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.live-con {
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
