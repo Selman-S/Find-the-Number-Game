@@ -22,7 +22,7 @@ header {
 
 
 .input-con {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   height: 100px;
@@ -37,6 +37,7 @@ header {
   border:none;
   outline: none;
   font-size: 24px;
+  text-align: center;
 }
 
 .input-con button {
@@ -82,11 +83,52 @@ background-size: contain;
 }
 
 
+/* butonlar */
+
+.btn-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+ 
+}
+
+.btn-con button {
+  padding: 8px 12px;
+  margin-left: 16px;
+  font-size: 22px;
+  border:none;
+  background-color: #6439BA;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.btn-con button:hover {
+  background-color: #fff;
+  color: #6439BA;
+ 
+}
+
+.live-con {
+  visibility:hidden;
+}
 
 
+.restart {
+  display: none;
+}
 
 
-
+.guess-text {
+  visibility: hidden;
+  height: 60px;
+  font-size: 24px;
+  text-align: center;
+}
 
 
 
