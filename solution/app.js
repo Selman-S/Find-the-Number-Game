@@ -26,6 +26,7 @@ startGame.addEventListener('click', () => {
   document.querySelector('.live-con').style.visibility = 'visible'
   result.innerText = 'Write the number'
   randomNumber = Math.ceil(Math.random() * 100)
+  buton.removeAttribute('disabled')
   input.focus()
 
   firstNum = 0
@@ -115,6 +116,7 @@ buton.addEventListener('click', () => {
     reStartGame.style.display = 'block'
     startGame.style.display = 'none'
     guessText.style.visibility = 'hidden'
+    buton.setAttribute('disabled', 'true')
   }
 })
 
